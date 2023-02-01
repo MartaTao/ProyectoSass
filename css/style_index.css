@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Potta One";
+  color: #fff;
+  text-align: center; }
+
+h3 {
+  font-family: "Patua One";
+  color: lightyellow; }
+
+img {
+  width: 100%; }
+
+body {
+  background-color: lightblue; }
+
+.info {
+  background-color: lightyellow; }
+
+.menu {
+  background-color: lightyellow; }
+
+/*# sourceMappingURL=style_index.css.map */

@@ -1,0 +1,36 @@
+//Variables
+$fuenteTitulo:"Potta One";
+$colorTitulo:#000;
+$fuenteSubtitulo:"Patua One";
+$pachirisuImg: 100%;
+$fondoAzul: lightblue;
+$colorTitulo:#fff;
+$amarilloPastel:lightyellow;
+$rosaPastel:#ffc0e4;
+//Mixin
+@mixin subtitulos{
+    font-family: $fuenteSubtitulo;
+    color:$amarilloPastel;
+}
+//Estilo
+h1{
+    font-family: $fuenteTitulo;
+    color:$colorTitulo;
+    text-align: center;
+}
+h3{
+    @include subtitulos();
+    
+}
+img{
+    width: $pachirisuImg;
+}
+body{
+    background-color: $fondoAzul;
+}
+.info{
+    background-color: $amarilloPastel;
+}
+.menu{
+    background-color: $amarilloPastel;
+}
