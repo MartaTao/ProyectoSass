@@ -3,11 +3,19 @@ h1 {
   color: #fff;
   text-align: center; }
 
+p {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.azul {
+  text-align: left; }
+
 h3 {
   font-family: "Patua One";
   color: lightyellow; }
 
-img {
+.img-historia {
   width: 100%; }
 
 body {
@@ -18,5 +26,206 @@ body {
 
 .menu {
   background-color: lightyellow; }
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: lightblue; }
+
+.logo {
+  width: 30px; }
+
+.movimiento, .movimiento-2, .movimiento-4, .movimiento-6, .movimiento-8, .movimiento-10, .movimiento-12, .movimiento-14 {
+  background-color: lightskyblue; }
+
+.primera-fila, .primera-columna, .ultima-fila {
+  background-color: lightskyblue;
+  font-family: "Alice";
+  color: #000;
+  text-align: center;
+  margin-left: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue; }
+
+.primera-columna {
+  margin-left: 17px; }
+
+.potencia {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 24px;
+  border-radius: 5px; }
+
+.fila-1 .columna {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue;
+  border-width: 2px; }
+
+.fila-1 {
+  border-radius: 5px;
+  text-align: center;
+  background-color: pink; }
+
+.fila-2 .columna {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue;
+  border-width: 2px; }
+
+.fila-2 {
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightcoral; }
+
+.fila-3 .columna {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue;
+  border-width: 2px; }
+
+.fila-3 {
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightskyblue; }
+
+.fila-4 .columna {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue;
+  border-width: 2px; }
+
+.fila-4 {
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightgoldenrodyellow; }
+
+.fila-5 .columna {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue;
+  border-width: 2px; }
+
+.fila-5 {
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightgreen; }
+
+.movimiento-1 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-2 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-3 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-4 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-5 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-6 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-7 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-8 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-9 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-10 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-11 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-12 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-13 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-14 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.movimiento-15 {
+  font-family: "Alice";
+  color: #000;
+  text-align: center; }
+
+.potencia-1 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 24px;
+  border-radius: 5px; }
+
+.potencia-2 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 24px;
+  border-radius: 5px;
+  width: 44px; }
+
+.potencia-3 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 24px;
+  border-radius: 5px;
+  width: 34px; }
+
+.potencia-4 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 24px;
+  border-radius: 5px;
+  width: 70px; }
+
+.potencia-5 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 24px;
+  border-radius: 5px;
+  width: 80px; }
+
+.estadiscica-img {
+  width: 204.8px; }
 
 /*# sourceMappingURL=style_index.css.map */
