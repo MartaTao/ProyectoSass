@@ -14,9 +14,9 @@
 </head>
 
 <body>
-  <nav class="menu navbar navbar-expand-sm ">
+  <nav class="navbar navbar-expand-sm ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="logo" src="images/Pachirisu.full.3348450.jpg"
+      <a class="navbar-brand"><img class="logo" src="images/Pachirisu.full.3348450.jpg"
           alt="Pachirisu tumbado sobre su cola guiñando un ojo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -24,35 +24,28 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#historia">Historia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#estadisticas">Estadísticas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#movimientos">Movimientos</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Link</a></li>
-              <li><a class="dropdown-item" href="#">Another link</a></li>
-              <li>
-                <a class="dropdown-item" href="#">Link</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#biologia">Biología</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <h1>Dios Pachirisu</h1>
-  <div class="container ">
-    <div class="historia">
+  <div class="container-fluid ">
+    <div class="historia" id="historia">
       <div class="row">
         <h3>Historia</h3>
         <div class="col-3">
-          <img class="img-historia img-thumbnail" src="images/pachirisu.jpg"
+          <img class="img-historia" src="images/pachirisu.jpg"
             alt="Pachirisu parando cometa draco usando señuelo">
         </div>
         <div class="col-9">
@@ -91,7 +84,7 @@
         repudiandae accusamus fuga incidunt, voluptatum eaque nam provident eveniet labore asperiores! Consequatur,
         velit quod.</p>
     </div>
-    <div class="estadisticas">
+    <div class="estadisticas" id="estadisticas">
       <h3>Estadísticas</h3>
       <div class="row ">
         <div class="col-6">
@@ -275,7 +268,7 @@
         </div>
       </div>
     </div>
-    <div class="movimientos">
+    <div class="movimientos" id="movimientos">
       <h3>Movimientos</h3>
       <div class="row">
         <div class="col-6">
@@ -501,10 +494,38 @@
           </div>
         </div>
         <div class="col-6">
-          <img src="images/comic.png">
+          <img src="images/comic.png" atl="Viñetas ilustrando el momento en que Pachirisu detuvo cometa draco y sobrevivió coméndose una baya." class="comic">
         </div>
       </div>
 
+    </div>
+    <div class="biologia" id="biologia">
+      <div class="row">
+        <h3>Biología</h3>
+        <div class="col-3">
+          <img src="images/normal.png" alt="Pachirisu normal con su franjas de color azul" class="pachirisu-normal">
+        </div>
+        <div class="col-3">
+          <p>Pachirisu es un pokemon con forma de ardilla de color blanco con orejas y una linea que recorre desde su frente hasta su cola azules y mejillas color amarillas.</p>
+        </div>
+        <div class="col-3">
+          <img src="images/shiny.png" alt="Pachirisu shiny con su franjas de color rosa" class="pachirisu-shiny">
+        </div>
+        <div class="col-3">
+          <p>Pachirisu een su froma shiny cambia su color azul por uno rosa.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/macho.png" alt="Pachirisu macho">
+        </div>
+        <div class="col-4">
+          <p>La única  y pequeña diferencia entre macho y hembra es la ralla de la frente. La ralla de la hembra es ligeramente más corta que la del macho y redondeada.</p>
+        </div>
+        <div class="col-4">
+          <img src="images/hembra.png" alt="Pachirisu shiny con su franjas de color rosa" class="pachirisu-hembra">
+        </div>
+      </div>
     </div>
   </div>
   <script src="js/bootstrap.min.js"></script>

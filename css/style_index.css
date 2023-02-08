@@ -1,3 +1,258 @@
+.fila-1 {
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: pink;
+  text-align: center; }
+  .fila-1 .columna {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
+    border-width: 2px; }
+
+.fila-2 {
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: lightcoral; }
+  .fila-2 .columna {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
+    border-width: 2px; }
+
+.fila-3 {
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: lightskyblue; }
+  .fila-3 .columna {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
+    border-width: 2px; }
+
+.fila-4 {
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: lightgoldenrodyellow; }
+  .fila-4 .columna {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
+    border-width: 2px; }
+
+.fila-5 {
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: lightgreen; }
+  .fila-5 .columna {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
+    border-width: 2px; }
+
+.movimiento-1 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-2 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-3 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-4 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-5 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-6 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-7 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-8 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-9 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-10 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-11 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-12 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-13 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-14 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.movimiento-15 {
+  font-family: "Alice";
+  color: #000;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+.potencia-1 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 40px;
+  border-radius: 5px; }
+
+.potencia-2 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 40px;
+  border-radius: 5px;
+  width: 25px; }
+
+.potencia-3 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 40px;
+  border-radius: 5px;
+  width: 50px; }
+
+.potencia-4 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 40px;
+  border-radius: 5px;
+  width: 70px; }
+
+.potencia-5 {
+  background-color: lightyellow;
+  color: lightyellow;
+  height: 20px;
+  width: 40px;
+  border-radius: 5px;
+  width: 75px; }
+
 h1 {
   font-family: "Potta One";
   color: #fff;
@@ -6,9 +261,12 @@ h1 {
 p {
   font-family: "Alice";
   color: #000;
-  text-align: center; }
+  text-align: left; }
 
 .azul {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
   text-align: left; }
 
 h3 {
@@ -16,7 +274,10 @@ h3 {
   color: lightyellow; }
 
 .img-historia {
-  width: 100%; }
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 320px; }
 
 body {
   background-color: lightblue; }
@@ -24,24 +285,32 @@ body {
 .info {
   background-color: lightyellow; }
 
-.menu {
+.navbar-collapse {
   background-color: lightyellow; }
-
-.navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: lightblue; }
+  .navbar-collapse .nav-link {
+    color: lightblue; }
 
 .logo {
   width: 30px; }
 
 .movimiento, .movimiento-2, .movimiento-4, .movimiento-6, .movimiento-8, .movimiento-10, .movimiento-12, .movimiento-14 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 0px;
   background-color: lightskyblue; }
 
 .primera-fila, .primera-columna, .ultima-fila {
   background-color: lightskyblue;
   font-family: "Alice";
   color: #000;
+  text-align: left;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
   margin-left: 5px;
+  margin-bottom: 0px;
   border-style: solid;
   border-width: 1px;
   border-color: lightblue; }
@@ -53,179 +322,13 @@ body {
   background-color: lightyellow;
   color: lightyellow;
   height: 20px;
-  width: 24px;
+  width: 40px;
   border-radius: 5px; }
 
-.fila-1 .columna {
-  border-style: solid;
-  border-width: 1px;
-  border-color: lightblue;
-  border-width: 2px; }
+.pachirisu-normal, .pachirisu-shiny {
+  width: 160px; }
 
-.fila-1 {
-  border-radius: 5px;
-  text-align: center;
-  background-color: pink; }
-
-.fila-2 .columna {
-  border-style: solid;
-  border-width: 1px;
-  border-color: lightblue;
-  border-width: 2px; }
-
-.fila-2 {
-  border-radius: 5px;
-  text-align: center;
-  background-color: lightcoral; }
-
-.fila-3 .columna {
-  border-style: solid;
-  border-width: 1px;
-  border-color: lightblue;
-  border-width: 2px; }
-
-.fila-3 {
-  border-radius: 5px;
-  text-align: center;
-  background-color: lightskyblue; }
-
-.fila-4 .columna {
-  border-style: solid;
-  border-width: 1px;
-  border-color: lightblue;
-  border-width: 2px; }
-
-.fila-4 {
-  border-radius: 5px;
-  text-align: center;
-  background-color: lightgoldenrodyellow; }
-
-.fila-5 .columna {
-  border-style: solid;
-  border-width: 1px;
-  border-color: lightblue;
-  border-width: 2px; }
-
-.fila-5 {
-  border-radius: 5px;
-  text-align: center;
-  background-color: lightgreen; }
-
-.movimiento-1 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-2 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-3 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-4 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-5 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-6 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-7 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-8 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-9 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-10 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-11 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-12 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-13 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-14 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.movimiento-15 {
-  font-family: "Alice";
-  color: #000;
-  text-align: center; }
-
-.potencia-1 {
-  background-color: lightyellow;
-  color: lightyellow;
-  height: 20px;
-  width: 24px;
-  border-radius: 5px; }
-
-.potencia-2 {
-  background-color: lightyellow;
-  color: lightyellow;
-  height: 20px;
-  width: 24px;
-  border-radius: 5px;
-  width: 44px; }
-
-.potencia-3 {
-  background-color: lightyellow;
-  color: lightyellow;
-  height: 20px;
-  width: 24px;
-  border-radius: 5px;
-  width: 34px; }
-
-.potencia-4 {
-  background-color: lightyellow;
-  color: lightyellow;
-  height: 20px;
-  width: 24px;
-  border-radius: 5px;
-  width: 70px; }
-
-.potencia-5 {
-  background-color: lightyellow;
-  color: lightyellow;
-  height: 20px;
-  width: 24px;
-  border-radius: 5px;
-  width: 80px; }
-
-.estadiscica-img {
-  width: 204.8px; }
+.pachirisu-hembra {
+  width: 300px; }
 
 /*# sourceMappingURL=style_index.css.map */

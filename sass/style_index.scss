@@ -2,69 +2,221 @@
 $fuenteTitulo: "Potta One";
 $colorTexto: #000;
 $fuenteSubtitulo: "Patua One";
-$fuenteTexto:"Alice";
-$pachirisuImg: 100%;
+$fuenteTexto: "Alice";
+$pachirisuImg: 1280px;
 $fondoAzul: lightblue;
 $colorTitulo: #fff;
 $amarilloPastel: lightyellow;
 $rosaPastel: #ffc0e4;
-$logo:30px;
-$fila-1:pink;
-$fila-2:lightcoral;
-$fila-3:lightskyblue;
-$fila-4:lightgoldenrodyellow;
-$fila-5:lightgreen;
-$alturaPotencia:20px;
-$anchoPS:24px;
-$anchoAtaque:44px;
-$anchoDefensa:34px;
-$anchodEsp:70px;
-$anchoVelocidad:80px;
+$logo: 30px;
+$fila-1: pink;
+$fila-2: lightcoral;
+$fila-3: lightskyblue;
+$fila-4: lightgoldenrodyellow;
+$fila-5: lightgreen;
+$alturaPotencia: 20px;
+$anchoPS: 40px;
+$imgBiolo: 80px;
+$hembra: 150px;
+
 //Mixin
+@mixin margin {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
 @mixin subtitulos {
     font-family: $fuenteSubtitulo;
     color: $amarilloPastel;
 }
-@mixin estadisticas{
-    border-radius: 5px;
-    text-align: center;
-}
-@mixin borde{
-    border-style: solid ;
+
+@mixin borde {
+    border-style: solid;
     border-width: 1px;
     border-color: $fondoAzul;
 }
+
 @mixin texto {
     font-family: $fuenteTexto;
-    color:$colorTexto;
+    color: $colorTexto;
+    text-align: left;
+}
+
+@mixin estadisticas {
+    border-radius: 5px;
     text-align: center;
 }
-@mixin potencia{
+
+@mixin potencia {
     background-color: $amarilloPastel;
-    color:$amarilloPastel;
+    color: $amarilloPastel;
     height: $alturaPotencia;
     width: $anchoPS;
     border-radius: 5px;
 }
+
+//Funciones
+@function partir($tam, $numpart) {
+    @return($tam/$numpart);
+}
+
+@function suma($suma1, $suma2) {
+    @return($suma1+$suma2);
+}
+
+@function resta($resta1, $resta2) {
+    @return($resta1 - $resta2);
+}
+
+@function agrandar($tam, $num2) {
+    @return($tam*$num2);
+}
+
+//Bucles
+@for $p from 1 through 5 {
+    @if $p==1 {
+        .fila-#{$p} {
+            @include estadisticas();
+            @include margin();
+            background-color: $fila-1;
+            text-align: center;
+
+            .columna {
+                @include borde();
+                border-width: 2px;
+            }
+        }
+    }
+
+    @else if $p==2 {
+        .fila-#{$p} {
+            @include estadisticas();
+            @include margin();
+            background-color: $fila-2;
+
+            .columna {
+                @include borde();
+                border-width: 2px;
+            }
+        }
+    }
+
+    @if $p==3 {
+        .fila-#{$p} {
+            @include estadisticas();
+            @include margin();
+            background-color: $fila-3;
+
+            .columna {
+                @include borde();
+                border-width: 2px;
+            }
+        }
+    }
+
+    @else if $p==4 {
+        .fila-#{$p} {
+            @include estadisticas();
+            @include margin();
+            background-color: $fila-4;
+
+            .columna {
+                @include borde();
+                border-width: 2px;
+            }
+        }
+    }
+
+    @else if $p==5 {
+        .fila-#{$p} {
+            @include estadisticas();
+            @include margin();
+            background-color: $fila-5;
+
+            .columna {
+                @include borde();
+                border-width: 2px;
+            }
+        }
+    }
+}
+
+@for $p from 1 through 15 {
+    .movimiento-#{$p} {
+        @include texto();
+        @include margin();
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    @if($p%2==0) {
+        .movimiento-#{$p} {
+            @extend .movimiento;
+        }
+    }
+}
+
+@for $p from 1 through 5 {
+    @if($p==1) {
+        .potencia-#{$p} {
+            @include potencia();
+        }
+    }
+
+    @else if($p==2) {
+        .potencia-#{$p} {
+            @include potencia();
+            width: resta($anchoPS, 15);
+        }
+    }
+
+    @else if($p==3) {
+        .potencia-#{$p} {
+            @include potencia();
+            width: suma($anchoPS, 10);
+        }
+    }
+
+    @else if($p==4) {
+        .potencia-#{$p} {
+            @include potencia();
+            width: suma($anchoPS, 30);
+        }
+    }
+
+    @else {
+        .potencia-#{$p} {
+            @include potencia();
+            width: suma($anchoPS, 35);
+        }
+    }
+}
+
 //Estilo
 h1 {
     font-family: $fuenteTitulo;
     color: $colorTitulo;
     text-align: center;
 }
-p{
+
+p {
     @include texto();
 }
-.azul{
+
+.azul {
+    @include margin();
     text-align: left;
 }
+
 h3 {
     @include subtitulos();
 
 }
 
 .img-historia {
-    width: $pachirisuImg;
+    @include margin();
+    width: partir($pachirisuImg, 4);
 }
 
 body {
@@ -75,118 +227,57 @@ body {
     background-color: $amarilloPastel;
 }
 
-.menu {
-    background-color: $amarilloPastel;
-}
-
 .navbar-collapse {
-    .navbar-nav {
-        .nav-item {
-            .nav-link {
-                color: $fondoAzul;
-            }
+    background-color: $amarilloPastel;
 
-        }
+    .nav-link {
+        color: $fondoAzul;
     }
+
+
 }
-.logo{
+
+.logo {
     width: $logo;
 }
-.movimiento{
+
+.movimiento {
+    @include margin();
+    margin-bottom: 0px;
     background-color: $fila-3;
 }
-.primera-fila{
+
+.primera-fila {
     background-color: $fila-3;
     @include texto();
+    text-align: center;
+    @include margin();
     margin-left: 5px;
+    margin-bottom: 0px;
     @include borde();
 }
-.primera-columna{
+
+.primera-columna {
     @extend .primera-fila;
     margin-left: 17px;
 }
-.ultima-fila{
+
+.ultima-fila {
     @extend .primera-fila;
 }
-.potencia{
+
+.potencia {
     @include potencia();
 }
-//Bucles
-@for $p from 1 through 5{
-    .fila-#{$p}{
-        .columna{
-            @include borde();
-            border-width: 2px;
-        }
-    }
-    @if $p==1{
-        .fila-#{$p} {
-            @include estadisticas();
-            background-color: $fila-1;
-        }
-    }@else if $p==2{
-        .fila-#{$p} {
-            @include estadisticas();
-            background-color: $fila-2;
-        }
-    }@if $p==3{
-        .fila-#{$p} {
-            @include estadisticas();
-            background-color: $fila-3;
-        }
-    }@else if $p==4{
-        .fila-#{$p} {
-            @include estadisticas();
-            background-color: $fila-4;
-        }
-    }@else if $p==5{
-        .fila-#{$p} {
-            @include estadisticas();
-            background-color: $fila-5;
-        }
-    }
+
+.pachirisu-normal {
+    width: agrandar($imgBiolo, 2);
 }
-@for $p from 1  through 15{
-    .movimiento-#{$p}{
-        @include texto();
-    }
-    @if($p%2==0){
-        .movimiento-#{$p}{
-            @extend .movimiento;
-        }
-    }
+
+.pachirisu-shiny {
+    @extend .pachirisu-normal;
 }
-@for $p from 1 through 5{
-    @if($p==1){
-        .potencia-#{$p}{
-            @include potencia(); 
-        }
-    }@else if($p==2){
-        .potencia-#{$p}{
-            @include potencia(); 
-            width: $anchoAtaque;
-        }
-    }@else if($p==3){
-        .potencia-#{$p}{
-            @include potencia(); 
-            width: $anchoDefensa;
-        }
-    }@else if($p==4){
-        .potencia-#{$p}{
-            @include potencia();
-            width: $anchodEsp;
-        }
-    }@else{
-        .potencia-#{$p}{
-            @include potencia(); 
-            width: $anchoVelocidad;
-        }
-    }
-}
-//Funciones
-@function partir($tam,$numpart){
-    @return($tam/$numpart);
-}
-.estadiscica-img{
-    width: partir(1024px,5);
+
+.pachirisu-hembra {
+    width: agrandar($hembra, 2);
 }
